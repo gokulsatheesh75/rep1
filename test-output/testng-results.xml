@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-04T09:20:41 IST" name="Suite1" finished-at="2023-08-04T09:20:41 IST" duration-ms="59">
+    <groups>
+      <group name="smoke">
+        <method signature="Ac.voltas()[pri:0, instance:ecommerce.Ac@14cd1699]" name="voltas" class="ecommerce.Ac"/>
+        <method signature="Bankng.debitcard()[pri:0, instance:ecommerce.Bankng@78691363]" name="debitcard" class="ecommerce.Bankng"/>
+        <method signature="Mobile.mobileonepluse()[pri:0, instance:ecommerce.Mobile@3590fc5b]" name="mobileonepluse" class="ecommerce.Mobile"/>
+        <method signature="Product.laptop()[pri:0, instance:ecommerce.Product@41d477ed]" name="laptop" class="ecommerce.Product"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test started-at="2023-08-04T09:20:41 IST" name="regression" finished-at="2023-08-04T09:20:41 IST" duration-ms="59">
+      <class name="ecommerce.Bankng">
+        <test-method signature="debitcard()[pri:0, instance:ecommerce.Bankng@78691363]" started-at="2023-08-04T09:20:41 IST" name="debitcard" finished-at="2023-08-04T09:20:41 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- debitcard -->
+      </class> <!-- ecommerce.Bankng -->
+      <class name="ecommerce.Ac">
+        <test-method signature="voltas()[pri:0, instance:ecommerce.Ac@14cd1699]" started-at="2023-08-04T09:20:41 IST" name="voltas" finished-at="2023-08-04T09:20:41 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- voltas -->
+      </class> <!-- ecommerce.Ac -->
+      <class name="ecommerce.Mobile">
+        <test-method signature="mobileonepluse()[pri:0, instance:ecommerce.Mobile@3590fc5b]" started-at="2023-08-04T09:20:41 IST" name="mobileonepluse" finished-at="2023-08-04T09:20:41 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobileonepluse -->
+      </class> <!-- ecommerce.Mobile -->
+      <class name="ecommerce.Product">
+        <test-method signature="laptop()[pri:0, instance:ecommerce.Product@41d477ed]" started-at="2023-08-04T09:20:41 IST" name="laptop" finished-at="2023-08-04T09:20:41 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- laptop -->
+      </class> <!-- ecommerce.Product -->
+    </test> <!-- regression -->
+  </suite> <!-- Suite1 -->
+</testng-results>
